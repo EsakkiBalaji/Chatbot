@@ -17,7 +17,7 @@ function getBotResponse(input) {
         return "My Name is ChatBot!";
     }
     else if (input == "what is your age" || input == "age") {
-        return "My am 1 year old!";
+        return "I am 3 years old!";
     }
     else if (input == "what is your owner" || input == "owner") {
         return "My Owner is Esakki Balaji!";
