@@ -1,0 +1,33 @@
+@keyframes floatup {
+    from {
+        transform: translateY(14px);
+        opacity: .0;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .full-chat-block {
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .chat-bar-collapsible {
+        position: fixed;
+        bottom: 20px;
+        left: 20%;
+        right: 100%;
+        width: 80%;
+    }
+
+    .collapsible {
+        width: 80%;
+        border: 0px;
+        border-top: 3px solid white;
+        border-radius: 0px;
+    }
+}
